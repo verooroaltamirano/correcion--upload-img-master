@@ -11,6 +11,7 @@ export const agregarCarrito= (req, res) => {
     res.status(200).redirect('/car')
 }
 export const carritoDel = (req, res) => {
+    console.log(req.body)
     cars=cars.filter(element => element.id != req.body.id)
     res.status(200).redirect('/car') 
 }
