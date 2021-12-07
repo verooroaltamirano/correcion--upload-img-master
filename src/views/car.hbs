@@ -1,0 +1,20 @@
+{{> navbar}}
+<h4 class="text-center"> <b>Carritos</b> </h4>
+
+<div class="row justify-content-around">
+    <div class="row mt-4 mb-3">
+    {{#each cars}}
+      
+<div class="row justify content-around mt-3 mb-2"></div>
+     <div class="card mx-3 mb-2 tarjeta {{category}} " style="width: 18rem;">
+     <img class="card-img-top" src="./img/productos/{{url}}" alt="Card image cap">
+     <div class="card-body">
+        <h5 class="card-title">{{name}} <b> Productos</b> </h5>
+        <p class="card-text">Precio del producto es: {{price}}$ <br> Agregar producto disponible {{stock}} </p>
+        <button class=" mx-3 btn btn-success" type="submit"> <b>Borrar del Carrito</b></button>
+    </div>
+   </div>
+  </div>
+</div>
+   {{/each}}
+</div>

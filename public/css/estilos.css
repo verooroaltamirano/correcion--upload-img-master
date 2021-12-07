@@ -1,0 +1,241 @@
+.tarjeta{
+    border: 3px solid #1725eb;
+    border-radius: 23px 23px 23px 23px;
+}
+.tarjeta2{  
+    border: 3px solid  #65a41c;
+    border-radius: 24px 24px 24px 24px;
+
+}
+.etiqueta1{
+    border:rgb(46, 51, 194) 2px;
+}   
+.contenido{
+    background-color: yellow;
+}
+.tarjeta-texto{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.tarjeta-titulo{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tarjeta-precio{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.elect:hover{
+    background-color: rgb(191, 230, 173);
+}
+.target-cok-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-coucine{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-cok{
+    font-weight:bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.target-hard-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-hardwar{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.target-cash-hard{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.hard:hover{
+    background-color:orange
+}
+.target-Beautiful-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-beauty{
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;     
+}
+.target-cash-beauty{
+    font-weight:bold;
+    font-style: italic;
+    font-size: 18px;  
+}
+.target-arte-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-arte{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-art{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.art-borde{
+    border:fuchsia solid 3px;
+}
+.art:hover{ 
+  background-color: rgb(240, 226, 214);
+}
+.target-can-felin-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-can-felin{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-can-felin{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.target-Smart-Phone-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-Smart-Phone{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-Phone-tab{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.Phone:hover{
+   background-color:rgb(193, 235, 211)  
+}
+.target-rop-femina-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-rop-femina{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-fem{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px; 
+}
+.ropa-fem:hover{
+    background-color: yellow;
+}
+.target-rop-homine-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.target-rop-homine{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+.target-cash-hom{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px; 
+}
+.target-auto-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.target-auto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-auto{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px; 
+}
+.auto:hover{
+    background-color: rgb(245, 209, 177);
+}
+.target-moto-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.target-moto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-moto{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.target-zapatos-femeninos-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.target-zap-femina{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-zap-femina{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+.target-zapatos-masculinos-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-zap-nasculinos{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-zap-homine{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px; 
+}
+.target-book-religion-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.target-book-fe{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.target-cash-book-fe{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px; 
+}
+.beauty{
+   border: blue solid 3px;
+}
+.texto{
+    color: blueviolet;
+}   
+
+   

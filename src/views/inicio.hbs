@@ -1,0 +1,24 @@
+{{> navbar}}
+
+<div class="row justify content-around">
+  <div class="row mt-4 mb-4">
+    {{#each products}}
+
+      <div class="card mx-3 tarjeta2 {{category}} " style="width: 18rem;">
+         <img class="card-img-top" src="./img/productos/{{url}}"  alt="Card image cap">
+         <div class="card-body">
+            <h5 class="card-title"> {{name}} <b> <br> Articulos para el hogar</b> </h5>
+            <p class="card-text">Precio del producto es: {{price}} $ <br>Hay disponible {{stock}} unidades para la Venta.</p>
+            <form action="/car" method="post">
+               <input type="hidden" name="name" value="{{name}}">
+               <input type="hidden" name="price" value="{{price}}">
+               <input type="hidden" name="stock" value="{{stock}}">
+               <input type="hidden" name="url" value="{{url}}">
+               <input type="number" name="cant" max="{{stock}}">
+               <button type="submit">Carrito</button>
+            </form>
+        </div>
+     </div>
+    {{/each}}
+ </div>
+</div>
