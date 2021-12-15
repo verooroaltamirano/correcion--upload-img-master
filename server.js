@@ -6,6 +6,8 @@ import routesProducts from './src/routes/routesProducts.js'
 import routesCars from './src/routes/routesCars.js'
 import methodOverride from 'method-override'
 import fileUpload from 'express-fileupload'
+import { conectarDB } from './config/db.js'
+import routesUsers from './src/routes/routesUsers.js'
 
 const app = express()
 const __dirname = path.resolve();
@@ -35,7 +37,7 @@ app.set('views', path.join(__dirname, 'src/views'))
 app.set('view engine', 'hbs');
 
 
-
+conectarDB()
 routesProducts(app)
 routesCars(app)
 

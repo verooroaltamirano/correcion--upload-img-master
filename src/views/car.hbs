@@ -3,17 +3,17 @@
 
 <div class="row justify-content-around">
      <div class="row mt-3 mb-3">
+
    {{#each cars}}
-      
      <div class="card col-md-3 mx-2 mb-3 tarjeta  {{category}} " style="width: 18rem;">
        <img class="card-img-top" src="./img/productos/{{url}}" alt="Card image cap">
      <div class="card-body">
-        <h5 class="card-title">{{name}} <b> Producto </b></h5>
+        <h5 class="card-title">{{name}}</h5>
         <p class="card-text">Precio del producto es: {{price}}$ <br> Agregar producto disponible {{stock}} </p>
-        
+      
         <form action="/car?_method=DELETE" method="post">
            <input type="hidden" name="id" value="{{id}}">
-           <button class="btn btn-success col-md-7 m-1" type="submit"> <b>Borrar Carrito</b></button>
+           <button class="btn btn-success col-md-7 mb-1" type="submit"> <b>Quitar Carrito</b></button>
         
         </form>
      </div>
